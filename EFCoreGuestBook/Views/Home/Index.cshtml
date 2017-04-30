@@ -1,0 +1,32 @@
+@{
+    Layout = null;
+}
+
+@model IList<EFCoreGuestBook.Models.GuestBook>
+
+<html>
+<head>
+    <title>ASP.NET Core MVC - MySQL: GuestBook</title>
+</head>
+
+<body>
+    <h1>Daftar GuestBook</h1>
+    <div>
+        <p>@Html.ActionLink("Tambah data", "Create")</p>
+        <table style="width:100%; border: solid 1px #000">
+            <tr>
+                <td>Nama</td>
+                <td>Email</td>
+                <td>Message</td>
+            </tr>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                <td>@Html.DisplayFor(modelItem => item.Message)</td>
+            </tr>
+            }
+    </div>
+</body>
+</html>

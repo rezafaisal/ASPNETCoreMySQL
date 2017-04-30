@@ -1,0 +1,17 @@
+@{
+    Layout = null;
+}
+@model EFCoreBookStore.Models.UserLoginFormViewModel
+
+<html>
+    <head>
+        <title>Contoh Otentikasi - Login</title>
+    </head>
+    <body>
+        <form asp-controller="ContohOtentikasi" asp-action="Login">
+            Username: <input asp-for="UserName" /><br/>
+            Password: <input asp-for="Password" /><br/>
+            <button type="submit" class="btn btn-success">Login</button>
+        </form>
+    </body>
+</html>

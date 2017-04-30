@@ -1,0 +1,38 @@
+@{
+    Layout = null;
+}
+
+@model MyCoreGuestBook.Models.GuestBook
+
+<html>
+<head>
+    <title>ASP.NET Core MVC - MySQL: GuestBook</title>
+</head>
+
+<body>
+    <h1>Form GuestBook</h1>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <p>
+                @Html.LabelFor(m=>m.Name)
+                @Html.TextBoxFor(m=>m.Name)
+            </p>
+            <p>
+                @Html.LabelFor(m=>m.Email)
+                @Html.TextBoxFor(m=>m.Email)
+            </p>
+            <p>
+                @Html.LabelFor(m=>m.Message)
+                @Html.TextBoxFor(m=>m.Message)
+            </p>
+            <p>
+                @ViewBag.GuestBookMessage
+            </p>
+            <p>
+                <input type="submit" value="Send" />
+            </p>
+        }
+    </div>
+</body>
+</html>

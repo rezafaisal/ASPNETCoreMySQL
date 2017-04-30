@@ -1,0 +1,8 @@
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\EFCoreGuestBook\bin\Debug\netcoreapp1.1\EFCoreGuestBook.deps.json
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\EFCoreGuestBook\bin\Debug\netcoreapp1.1\EFCoreGuestBook.runtimeconfig.json
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\EFCoreGuestBook\bin\Debug\netcoreapp1.1\EFCoreGuestBook.runtimeconfig.dev.json
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\EFCoreGuestBook\bin\Debug\netcoreapp1.1\EFCoreGuestBook.dll
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\EFCoreGuestBook\bin\Debug\netcoreapp1.1\EFCoreGuestBook.pdb
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\EFCoreGuestBook\obj\Debug\netcoreapp1.1\EFCoreGuestBook.AssemblyInfo.cs
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\EFCoreGuestBook\obj\Debug\netcoreapp1.1\EFCoreGuestBook.dll
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\EFCoreGuestBook\obj\Debug\netcoreapp1.1\EFCoreGuestBook.pdb

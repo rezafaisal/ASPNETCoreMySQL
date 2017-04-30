@@ -1,0 +1,10 @@
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\SapientCoreMVC\bin\Debug\netcoreapp1.1\SapientCoreMVC.db
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\SapientCoreMVC\bin\Debug\netcoreapp1.1\SapientCoreMVC.deps.json
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\SapientCoreMVC\bin\Debug\netcoreapp1.1\SapientCoreMVC.runtimeconfig.json
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\SapientCoreMVC\bin\Debug\netcoreapp1.1\SapientCoreMVC.runtimeconfig.dev.json
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\SapientCoreMVC\bin\Debug\netcoreapp1.1\SapientCoreMVC.dll
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\SapientCoreMVC\bin\Debug\netcoreapp1.1\SapientCoreMVC.pdb
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\SapientCoreMVC\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\SapientCoreMVC\obj\Debug\netcoreapp1.1\SapientCoreMVC.AssemblyInfo.cs
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\SapientCoreMVC\obj\Debug\netcoreapp1.1\SapientCoreMVC.dll
+d:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\SapientCoreMVC\obj\Debug\netcoreapp1.1\SapientCoreMVC.pdb

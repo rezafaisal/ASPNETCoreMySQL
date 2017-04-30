@@ -1,0 +1,38 @@
+@{
+    Layout = null;
+}
+
+@model BelajarASPNETCoreMVC.Models.GuestBook
+
+<html>
+<head>
+    <title>Hello ASP.NET Core MVC</title>
+</head>
+
+<body>
+    <h1>GuestBook</h1>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <p>
+                @Html.LabelFor(m=>m.Name)
+                @Html.TextBoxFor(m=>m.Name)
+            </p>
+            <p>
+                @Html.LabelFor(m=>m.Email)
+                @Html.TextBoxFor(m=>m.Email)
+            </p>
+            <p>
+                @Html.LabelFor(m=>m.Message)
+                @Html.TextBoxFor(m=>m.Message)
+            </p>
+            <p>
+                @ViewBag.GuestBookMessage
+            </p>
+            <p>
+                <input type="submit" value="Send" />
+            </p>
+        }
+    </div>
+</body>
+</html>

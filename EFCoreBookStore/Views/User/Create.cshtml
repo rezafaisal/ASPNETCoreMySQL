@@ -1,0 +1,80 @@
+@model EFCoreBookStore.Models.UserCreateFormViewModel
+
+<div class="">
+    <div class="page-title">
+        <div class="title_left">
+        <h3>Users</h3>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Form of User <small>create data</small></h2>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                        <br />
+                        <form asp-controller="User" asp-action="Create" data-parsley-validate class="form-horizontal form-label-left">
+                            <div asp-validation-summary="All"></div>
+                            <div class="form-group">
+                                <label asp-for="UserName" class="control-label col-md-3 col-sm-3 col-xs-12" ></label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input asp-for="UserName" required="required" class="form-control col-md-7 col-xs-12">
+                                <span asp-validation-for="UserName"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="RoleID" class="control-label col-md-3 col-sm-3 col-xs-12" ></label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                <select asp-for="RoleID" asp-items="@ViewBag.Roles" class="form-control">
+                                    <option>Choose Role</option>
+                                </select>
+                                <span asp-validation-for="RoleID"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Password" class="control-label col-md-3 col-sm-3 col-xs-12" ></label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input asp-for="Password" required="required" class="form-control col-md-7 col-xs-12">
+                                <span asp-validation-for="Password"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="PasswordConfirm" class="control-label col-md-3 col-sm-3 col-xs-12" ></label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input asp-for="PasswordConfirm" required="required" class="form-control col-md-7 col-xs-12">
+                                <span asp-validation-for="PasswordConfirm"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Email" class="control-label col-md-3 col-sm-3 col-xs-12" ></label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input asp-for="Email" required="required" class="form-control col-md-7 col-xs-12">
+                                <span asp-validation-for="Email"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Fullname" class="control-label col-md-3 col-sm-3 col-xs-12" ></label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input asp-for="Fullname" required="required" class="form-control col-md-7 col-xs-12">
+                                <span asp-validation-for="Fullname"></span>
+                                </div>
+                            </div>
+                            <div class="ln_solid"></div>
+                            <div class="form-group">
+                                <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+                                <button class="btn btn-primary" type="button">Cancel</button>
+                                <button class="btn btn-primary" type="reset">Reset</button>
+                                <button type="submit" class="btn btn-success">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

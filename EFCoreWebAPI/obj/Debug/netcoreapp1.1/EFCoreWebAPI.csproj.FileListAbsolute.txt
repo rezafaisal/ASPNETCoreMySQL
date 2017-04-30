@@ -1,0 +1,16 @@
+C:\NETCore\EFCoreWebAPI\bin\Debug\netcoreapp1.1\EFCoreWebAPI.deps.json
+C:\NETCore\EFCoreWebAPI\bin\Debug\netcoreapp1.1\EFCoreWebAPI.runtimeconfig.json
+C:\NETCore\EFCoreWebAPI\bin\Debug\netcoreapp1.1\EFCoreWebAPI.runtimeconfig.dev.json
+C:\NETCore\EFCoreWebAPI\bin\Debug\netcoreapp1.1\EFCoreWebAPI.dll
+C:\NETCore\EFCoreWebAPI\bin\Debug\netcoreapp1.1\EFCoreWebAPI.pdb
+C:\NETCore\EFCoreWebAPI\obj\Debug\netcoreapp1.1\EFCoreWebAPI.AssemblyInfo.cs
+C:\NETCore\EFCoreWebAPI\obj\Debug\netcoreapp1.1\EFCoreWebAPI.dll
+C:\NETCore\EFCoreWebAPI\obj\Debug\netcoreapp1.1\EFCoreWebAPI.pdb
+D:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\EFCoreWebAPI\bin\Debug\netcoreapp1.1\EFCoreWebAPI.deps.json
+D:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\EFCoreWebAPI\bin\Debug\netcoreapp1.1\EFCoreWebAPI.runtimeconfig.json
+D:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\EFCoreWebAPI\bin\Debug\netcoreapp1.1\EFCoreWebAPI.runtimeconfig.dev.json
+D:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\EFCoreWebAPI\bin\Debug\netcoreapp1.1\EFCoreWebAPI.dll
+D:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\EFCoreWebAPI\bin\Debug\netcoreapp1.1\EFCoreWebAPI.pdb
+D:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\EFCoreWebAPI\obj\Debug\netcoreapp1.1\EFCoreWebAPI.AssemblyInfo.cs
+D:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\EFCoreWebAPI\obj\Debug\netcoreapp1.1\EFCoreWebAPI.dll
+D:\Data\My Books\INDC - ASP.NET - ASP.NET Core & MySQL\source\ASPNETCore1.1\EFCoreWebAPI\obj\Debug\netcoreapp1.1\EFCoreWebAPI.pdb

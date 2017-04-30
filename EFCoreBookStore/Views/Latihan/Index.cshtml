@@ -1,0 +1,161 @@
+@{
+    Layout = null;
+}
+
+<html>
+    <head>
+        <title>Latihan</title>
+    </head>
+    <body>
+        <input asp-for="Email" />
+        <a asp-controller="Home" asp-action="Create">About me</a>
+
+        <h1>Latihan</h1>
+        <h2>Simbol @@</h2>
+        <p>@@mrezafaisal</p>
+        <p><a href="mailto:Support@contoso.com">Support@contoso.com</a></p>
+        
+        @functions{
+            string HelloWorld() {
+                return "Hello World";
+            }
+        }
+
+        <h2>Ekspresi implisit</h2>
+        <p>@DateTime.Now</p>
+        <p>@DateTime.IsLeapYear(2016)</p>
+        <p>@DateTime.IsLeapYear(2017)</p>
+        <p>@HelloWorld()</p>
+
+        <h2>Ekspresi eksplisit </h2>
+        <p>Last week this time: @(DateTime.Now - TimeSpan.FromDays(7))</p>
+
+        <h2>Ekspresi encoding</h2>
+        @("<span>Hello World</span>")
+
+        <h2>Blok Kode</h2>
+        @{
+            var output = "Hello World";
+        }
+        <p>Nilai variable @@output: @output</p>
+
+        @{
+            var nama = "M Reza Faisal";
+            <p>Hello @nama</p>
+        }
+
+        @for (var i = 0; i < 5; i++)
+        {
+            <p>Bilangan: @i</p>
+        }
+
+        @for (var i = 0; i < 5; i++)
+        {
+            @:Bilangan: @i
+        }
+
+        <h2>Kondisi/Percabangan</h2>
+        @{var value = 5;}
+
+        @if (value % 2 == 0)
+        {
+            <p>Bilangan genap</p>
+        }
+
+        @if (value % 2 == 0)
+        {
+            <p>Bilangan genap</p>
+        }
+        else if (value >= 11)
+        {
+            <p>Bilangan lebih besar dari 11.</p>
+        }
+        else
+        {
+            <p>Bilangan lebih kecil dari 11 dan ganjil.</p>
+        }
+
+        @switch (value)
+        {
+            case 1:
+                <p>Nilai adalah 1!</p>
+                break;
+            case 10:
+                <p>Nilai adalah 10!</p>
+                break;
+            default:
+                <p>Nilai bukan 1 atau 10.</p>
+                break;
+        }
+
+        <h2>Pengulangan</h2>
+        @{
+            string[] names = new string[3];
+            names[0] = "wati";
+            names[1] = "budi";
+            names[2] = "iwan";
+        }
+        <h3>@@for</h3>
+        @for(int i =0; i < names.Length; i++)
+        {
+            <text>@names[i] &nbsp;</text> 
+        }
+
+        <h3>@@foreach</h3>
+        @foreach (var name in names){
+            <text>@name &nbsp;</text> 
+        }
+
+        <h3>@@while</h3>
+        @{ var j = 0; }
+        @while (j < names.Length)
+        {
+            <text>@names[j] &nbsp;</text> 
+            j++;
+        }
+
+        <h3>@@do while</h3>
+        @{ var k = 0; }
+        @do
+        {
+            <text>@names[k] &nbsp;</text> 
+            k++;
+        } while (k < names.Length);
+
+        <h2>Statement @@using</h2>
+        @using (Html.BeginForm())
+        {
+            <div>
+                email:
+                <input type="email" id="Email" name="Email" value="" />
+                <button type="submit"> Register </button>
+            </div>
+        }
+
+        <h2>Exception Handling</h2>
+        @try
+        {
+            throw new InvalidOperationException("Terjadi kesalahan.");
+        }
+        catch (Exception ex)
+        {
+            <p>Pesan kesalahan: @ex.Message</p>
+        }
+        finally
+        {
+            <p>Silakan lakukan aksi sekali lagi.</p>
+        }
+
+        @*
+        @{
+            /* 
+            komentar 1
+            komentar 2
+            komentar 3 
+            */
+
+            // komentar 
+        }
+        *@
+    </body>
+</html>
