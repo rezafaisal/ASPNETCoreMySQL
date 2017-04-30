@@ -6,6 +6,8 @@ Fitur-fitur aplikasi web book store ini adalah:
 - Mengelola pengarang buku, fitur ini dapat digunakan untuk menampilkan, menambah, mengedit dan menghapus data pengarang buku.
 - Mengelola kategori buku, fitur ini dapat digunakan untuk menampilkan, menambah, mengedit dan menghapus data kategori buku.
 - Mengelola buku, fitur ini dapat digunakan untuk menampilkan, menambah, mengedit dan menghapus data buku.
+- Mengelola role, fitur ini berfungsi untuk menampilkan, menambah, mengedit dan menghapus data role.
+- Mengelola user, fitur ini berfungsi untuk menampilkan, menambah, mengedit dan menghapus data user.
 
 ##Installation
 Aplikasi ini memerlukan template admin Gentellela yang bisa diunduh di https://github.com/puikinsh/gentelella.  Unduh source code pada repository tersebut, kemudian salin folder "vendors" ke folder "wwwroot".
