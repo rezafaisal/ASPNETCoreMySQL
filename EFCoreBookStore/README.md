@@ -22,3 +22,12 @@ Gambar di bawah ini adalah contoh halaman daftar pengarang buku.
 
 Gambar di bawah ini adalah contoh halaman daftar buku.
 ![alt tag](https://github.com/rezafaisal/ASPNETCoreMySQL/blob/master/EFCoreBookStore/screenshoot/books.JPG)
+
+Gambar di bawah ini adalah contoh halaman login.
+![alt tag](https://github.com/rezafaisal/ASPNETCoreMySQL/blob/master/EFCoreBookStore/screenshoot/login.JPG)
+
+Gambar di bawah ini adalah contoh halaman daftar role.
+![alt tag](https://github.com/rezafaisal/ASPNETCoreMySQL/blob/master/EFCoreBookStore/screenshoot/role.JPG)
+
+Gambar di bawah ini adalah contoh halaman daftar buku.
+![alt tag](https://github.com/rezafaisal/ASPNETCoreMySQL/blob/master/EFCoreBookStore/screenshoot/user.JPG)
